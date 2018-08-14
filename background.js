@@ -24,12 +24,12 @@ var snackbarOption = false;
 //Right click context adds for links + audio/video
 browser.contextMenus.create({
     id: "copy-link-to-clipboard",
-    title: "Create web link for Download",
+    title: "Create Cli-Link",
     contexts: ["link"]
 });
 browser.contextMenus.create({
     id: "copy-media-to-clipboard",
-    title: "Create media link for Download",
+    title: "Create media Cli-Link",
     contexts: ['video', 'audio']
 });
 
